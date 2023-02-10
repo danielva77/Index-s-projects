@@ -1,0 +1,101 @@
+html, body{
+    background-color: white;
+}
+p, a, h1, h2,h4,h6{
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    height: 7vh;
+    font-family: 'Mukta', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    background-color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 7vh;
+    background-color: white;
+}
+.imagenlink{
+    margin-left: 2%;
+}
+.imagenlink:hover{
+    scale: 1.05;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+}
+.containerproject{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 15px;
+}
+.project{
+    /* border: 0.5px solid black; */
+    width: 200px;
+    height: 112px;
+    }
+.project:hover{
+    scale: 1.1;
+}
+.project:hover img{
+    opacity: 0.2;
+}
+
+button{
+    display: inline-block;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+button:hover{
+    background-color: green;
+}
+
+.visible{
+    visibility: hidden;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    
+}
+.tecnologias{
+    visibility: hidden;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder;
+    font-size: 70%;
+    padding:0% 5% 0% 5%;
+    -webkit-transition: margin 0.3s;
+    text-align: center;
+}
+
+
+.project:hover p{
+    margin-top: -1%;
+    position: relative;
+    top: -100%;
+    visibility: visible;
+    text-decoration: none;
+}
