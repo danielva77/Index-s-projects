@@ -8,6 +8,7 @@ import Calc from "../src/ImagenesProyectos/Calculator.jpg"
 import Starbucks from "../src/ImagenesProyectos/Starbucks.jpg"
 import Todoreact from "../src/ImagenesProyectos/TodoReact.jpg"
 import StarWars from "../src/ImagenesProyectos/StarWars.jpg"
+import CV from "../src/CV/Resume.pdf"
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
 
       <div class="texto"><h2>Ingeniero Industrial y Desarrollador web Full Stack</h2></div>
       <div class="links">
-          <a href="google.com" target="_blank" rel="noopener noreferrer" class="imagenlink"><img src="https://cdn-icons-png.flaticon.com/512/3757/3757968.png" title="Curriculum Vitae" class="imagenlink" alt="CV" height="100%"></img></a>
+          <a href={CV} target="_blank" rel="noopener noreferrer" class="imagenlink"><img src="https://cdn-icons-png.flaticon.com/512/3757/3757968.png" title="Curriculum Vitae" class="imagenlink" alt="CV" height="100%"></img></a>
           <a href="mailto:valdez.daniel77@gmail.com" target="_blank" rel="noopener noreferrer" class="imagenlink"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504727.png" title="Gmail" class="imagenlink" alt="Gmail" height="100%"></img></a>
           <a href="https://www.linkedin.com/in/daniel-valdez-94a638195/" target="_blank" rel="noopener noreferrer" class="imagenlink"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" title="Linkedin" class="imagenlink" alt="Linkedin" height="100%"></img></a>
           <a href="https://github.com/danielva77" target="_blank" rel="noopener noreferrer" class="imagenlink"><img src="https://cdn-icons-png.flaticon.com/512/919/919847.png" title="Github" class="imagenlink" alt="Github" height="100%"></img></a>
