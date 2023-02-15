@@ -8,6 +8,7 @@ import Calc from "../src/ImagenesProyectos/Calculator.jpg"
 import Starbucks from "../src/ImagenesProyectos/Starbucks.jpg"
 import Todoreact from "../src/ImagenesProyectos/TodoReact.jpg"
 import StarWars from "../src/ImagenesProyectos/StarWars.jpg"
+import Travel from "../src/ImagenesProyectos/Travel.jpg"
 import CV from "../src/CV/Resume.pdf"
 
 
@@ -35,6 +36,12 @@ function App() {
           <img src="https://cdn.dribbble.com/users/3771952/screenshots/11154411/battlefield_4_4x.png" alt="Imagen" object-fit="cover" width="100%" height="100%"></img>
           <p class="visible">E-commerce</p>
           <p class="tecnologias">ReactJS · Redux · NodeJS · Javascript · PostgreSQL · Sequelize · Mercadopago · Auth0 · Nodemailer · Chatbox</p>
+        </div></a>
+
+        <a href="https://merry-fox-4aeea5.netlify.app/" target="_blank" rel="noopener noreferrer"><div class="project">
+          <img src={Travel} alt="Travel&Tour" object-fit="cover" width="100%" height="100%"></img>
+          <p class="visible">Travel&Tour Website</p>
+          <p class="tecnologias">HTML · Bootstrap · CSS</p>
         </div></a>
 
         <a href="https://resilient-chebakia-f75fcb.netlify.app/" target="_blank" rel="noopener noreferrer"><div class="project">
