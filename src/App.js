@@ -10,6 +10,7 @@ import Todoreact from "../src/ImagenesProyectos/TodoReact.jpg"
 import StarWars from "../src/ImagenesProyectos/StarWars.jpg"
 import Travel from "../src/ImagenesProyectos/Travel.jpg"
 import TGF from "../src/ImagenesProyectos/TheGamingFarm.png"
+import Videogames from "../src/ImagenesProyectos/Videogames.jpg"
 import CV from "../src/CV/Resume.pdf"
 
 
@@ -37,6 +38,12 @@ function App() {
           <img src={TGF} alt="Imagen" object-fit="cover" width="100%" height="100%"></img>
           <p class="visible">E-commerce</p>
           <p class="tecnologias">ReactJS · Redux · NodeJS · Javascript · PostgreSQL · Sequelize · Mercadopago · Auth0 · Nodemailer · Chatbox</p>
+        </div></a>
+
+        <a href="https://github.com/danielva77/PI---Proyecto-Individual" target="_blank" rel="noopener noreferrer"><div class="project">
+          <img src={Videogames} alt="Videogames" object-fit="cover" width="100%" height="100%"></img>
+          <p class="visible">Videogames</p>
+          <p class="tecnologias">ReactJS · Redux · NodeJS · Javascript · PostgreSQL · Sequelize</p>
         </div></a>
 
         <a href="https://merry-fox-4aeea5.netlify.app/" target="_blank" rel="noopener noreferrer"><div class="project">
