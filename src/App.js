@@ -9,6 +9,7 @@ import Starbucks from "../src/ImagenesProyectos/Starbucks.jpg"
 import Todoreact from "../src/ImagenesProyectos/TodoReact.jpg"
 import StarWars from "../src/ImagenesProyectos/StarWars.jpg"
 import Travel from "../src/ImagenesProyectos/Travel.jpg"
+import TGF from "../src/ImagenesProyectos/TheGamingFarm.png"
 import CV from "../src/CV/Resume.pdf"
 
 
@@ -32,8 +33,8 @@ function App() {
 
       <div class="containerproject">
 
-        <a href="#navbar" target="_blank" rel="noopener noreferrer"><div class="project">
-          <img src="https://cdn.dribbble.com/users/3771952/screenshots/11154411/battlefield_4_4x.png" alt="Imagen" object-fit="cover" width="100%" height="100%"></img>
+        <a href="https://github.com/danielva77/The-Gamig-Farm-PF" target="_blank" rel="noopener noreferrer"><div class="project">
+          <img src={TGF} alt="Imagen" object-fit="cover" width="100%" height="100%"></img>
           <p class="visible">E-commerce</p>
           <p class="tecnologias">ReactJS · Redux · NodeJS · Javascript · PostgreSQL · Sequelize · Mercadopago · Auth0 · Nodemailer · Chatbox</p>
         </div></a>
