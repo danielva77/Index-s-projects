@@ -11,6 +11,7 @@ import StarWars from "../src/ImagenesProyectos/StarWars.jpg"
 import Travel from "../src/ImagenesProyectos/Travel.jpg"
 import TGF from "../src/ImagenesProyectos/TheGamingFarm.png"
 import Videogames from "../src/ImagenesProyectos/Videogames.jpg"
+import Crypto from "../src/ImagenesProyectos/Crypto.jpg"
 import CV from "../src/CV/Resume.pdf"
 
 
@@ -33,6 +34,12 @@ function App() {
       <div class="texto"><h4>Acá podras encontrar un index de todos los proyectos en los que trabajé, desde los básicos hasta los que tienen mayor complejidad.</h4></div>
 
       <div class="containerproject">
+
+      <a href="https://cripto-app-0ac77b.netlify.app/" target="_blank" rel="noopener noreferrer"><div class="project">
+          <img src={Crypto} alt="Crypto" object-fit="cover" width="100%" height="100%"></img>
+          <p class="visible">Crypto app</p>
+          <p class="tecnologias">ReactJS · Javascript · JestJS · Responsive · ChartJS</p>
+        </div></a>
 
         <a href="https://github.com/danielva77/The-Gamig-Farm-PF" target="_blank" rel="noopener noreferrer"><div class="project">
           <img src={TGF} alt="Imagen" object-fit="cover" width="100%" height="100%"></img>
